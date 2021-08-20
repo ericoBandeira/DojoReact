@@ -1,0 +1,25 @@
+.HeaderCss{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.HeaderLogo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.HeaderPages{
+    display: flex;
+    align-items: center;
+}
+
+.HeaderPages > a{
+    margin-right: 3rem;
+}
+
+.HeaderPages > a:first-child{
+    border: 2px solid yellow;
+    border-radius: 50%;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+}

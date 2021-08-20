@@ -1,0 +1,33 @@
+.ContentCss{
+    margin-left: 22rem;
+}
+
+
+.ContentCss > div > div{
+    display: flex;
+    margin-top: 8rem;
+}
+
+.ContentCss > div > div > p{
+    font-size: 10rem;
+    font-weight: bold;
+    margin:0;
+}
+
+.ContentCss > div > div > img{
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem 0 0 3rem;
+}
+
+.ContentCss > button{
+    margin: 2rem 0 5rem 0;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: 0;
+    background-color: tomato;
+    cursor: pointer;
+}
+.ContentCss > button > p{
+    color: black;
+    font-weight: bold;
+}
